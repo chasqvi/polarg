@@ -1,0 +1,907 @@
+{
+  "generated_at": "2026-04-12T23:36:51.188Z",
+  "total": 50,
+  "articles": [
+    {
+      "title": "Milei anunció una reforma económica integral en el Congreso: elimina 12 ministerios y privatiza empresas del Estado",
+      "slug": "milei-anuncio-una-reforma-economica-integral-en-el-congreso-elimina-12-ministerios-y-privatiza-empre-d4468a65",
+      "excerpt": "El presidente presentó ante el Parlamento el mayor ajuste estructural de la historia argentina, con la eliminación de ministerios y la apertura de empresas estatales al sector privado.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "milei",
+        "reforma",
+        "congreso",
+        "ministerios",
+        "privatización",
+        "economía"
+      ],
+      "author": "Federico Navarro",
+      "published_at": "2026-04-12T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/milei-anuncio-una-reforma-economica-integral-en-el-congreso-elimina-12-ministerios-y-privatiza-empre"
+    },
+    {
+      "title": "Cristina Kirchner presentó un proyecto de ley para aumentar el haber mínimo jubilatorio",
+      "slug": "cristina-kirchner-presento-un-proyecto-de-ley-para-aumentar-el-haber-minimo-jubilatorio-e4cee8ba",
+      "excerpt": "La expresidenta y senadora electa impulsó en el Senado una iniciativa para recomponer los ingresos de los jubilados, en medio del debate por la reforma previsional.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "cristina kirchner",
+        "jubilaciones",
+        "senado",
+        "peronismo",
+        "reforma previsional"
+      ],
+      "author": "Carolina López",
+      "published_at": "2026-04-12T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/cristina-kirchner-presento-un-proyecto-de-ley-para-aumentar-el-haber-minimo-jubilatorio"
+    },
+    {
+      "title": "Los gobernadores amenazaron con ir a la Justicia si no se restituye la coparticipación",
+      "slug": "los-gobernadores-amenazaron-con-ir-a-la-justicia-si-no-se-restituye-la-coparticipacion-6c640989",
+      "excerpt": "Mandatarios provinciales de distintos signos políticos advirtieron al gobierno nacional que llevarán el reclamo por los fondos retenidos ante la Corte Suprema.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "gobernadores",
+        "coparticipación",
+        "federalismo",
+        "provincias",
+        "justicia"
+      ],
+      "author": "Martín Rodríguez",
+      "published_at": "2026-04-11T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/los-gobernadores-amenazaron-con-ir-a-la-justicia-si-no-se-restituye-la-coparticipacion"
+    },
+    {
+      "title": "El oficialismo logró dictamen favorable para el proyecto de desregulación laboral",
+      "slug": "el-oficialismo-logro-dictamen-favorable-para-el-proyecto-de-desregulacion-laboral-8ac0f047",
+      "excerpt": "La Comisión de Trabajo de la Cámara de Diputados aprobó con modificaciones el texto que flexibiliza las condiciones de contratación para pymes.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "diputados",
+        "laboral",
+        "desregulación",
+        "libertad avanza",
+        "comisión"
+      ],
+      "author": "Sebastián Castro",
+      "published_at": "2026-04-11T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/el-oficialismo-logro-dictamen-favorable-para-el-proyecto-de-desregulacion-laboral"
+    },
+    {
+      "title": "Villarruel convocó a una sesión extraordinaria del Senado para debatir la reforma del Estado",
+      "slug": "villarruel-convoco-a-una-sesion-extraordinaria-del-senado-para-debatir-la-reforma-del-estado-90403700",
+      "excerpt": "La vicepresidenta y presidenta del Senado fijó una sesión especial para la próxima semana con el objetivo de avanzar en la agenda legislativa del gobierno.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "villarruel",
+        "senado",
+        "sesión",
+        "reforma del estado",
+        "legislativo"
+      ],
+      "author": "Ana Morales",
+      "published_at": "2026-04-10T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/villarruel-convoco-a-una-sesion-extraordinaria-del-senado-para-debatir-la-reforma-del-estado"
+    },
+    {
+      "title": "La UCR definió su posición frente al presupuesto 2026: condiciones para acompañar",
+      "slug": "la-ucr-definio-su-posicion-frente-al-presupuesto-2026-condiciones-para-acompanar-91b8287c",
+      "excerpt": "El bloque radical en Diputados planteó sus demandas sobre gasto educativo y obra pública como condiciones para sumarse al debate presupuestario.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "ucr",
+        "presupuesto",
+        "diputados",
+        "radicalismo",
+        "oposición"
+      ],
+      "author": "Lucía Fernández",
+      "published_at": "2026-04-10T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/la-ucr-definio-su-posicion-frente-al-presupuesto-2026-condiciones-para-acompanar"
+    },
+    {
+      "title": "El PRO analiza si presenta candidatos propios en las elecciones de medio término",
+      "slug": "el-pro-analiza-si-presenta-candidatos-propios-en-las-elecciones-de-medio-termino-47d77a64",
+      "excerpt": "La conducción del partido que lidera Macri debate internamente si va en alianza con La Libertad Avanza o si presenta listas propias en las principales provincias.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "pro",
+        "macri",
+        "elecciones",
+        "alianza",
+        "libertad avanza"
+      ],
+      "author": "Diego Gutiérrez",
+      "published_at": "2026-04-09T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/el-pro-analiza-si-presenta-candidatos-propios-en-las-elecciones-de-medio-termino"
+    },
+    {
+      "title": "Kicillof resistió los recortes de Nación y garantizó el pago de salarios docentes en la Provincia",
+      "slug": "kicillof-resistio-los-recortes-de-nacion-y-garantizo-el-pago-de-salarios-docentes-en-la-provincia-1bb4ee3e",
+      "excerpt": "El gobernador bonaerense confirmó que la Provincia de Buenos Aires afrontará con recursos propios el costo del primer bono salarial docente del año.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "kicillof",
+        "buenos aires",
+        "docentes",
+        "salarios",
+        "provincia"
+      ],
+      "author": "Redacción PA",
+      "published_at": "2026-04-09T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/kicillof-resistio-los-recortes-de-nacion-y-garantizo-el-pago-de-salarios-docentes-en-la-provincia"
+    },
+    {
+      "title": "El gobierno evalúa extender el horario de funcionamiento de los ministerios restantes",
+      "slug": "el-gobierno-evalua-extender-el-horario-de-funcionamiento-de-los-ministerios-restantes-51b3f534",
+      "excerpt": "Como parte del plan de eficiencia del Estado, la Jefatura de Gabinete estudia un esquema de trabajo extendido para compensar la reducción de la planta política.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "gobierno",
+        "estado",
+        "eficiencia",
+        "jefatura de gabinete",
+        "administración"
+      ],
+      "author": "Federico Navarro",
+      "published_at": "2026-04-08T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/el-gobierno-evalua-extender-el-horario-de-funcionamiento-de-los-ministerios-restantes"
+    },
+    {
+      "title": "Diputados aprobó en general el proyecto de blanqueo de capitales",
+      "slug": "diputados-aprobo-en-general-el-proyecto-de-blanqueo-de-capitales-3d66b0c5",
+      "excerpt": "La Cámara baja dio media sanción al proyecto de exteriorización de activos con 132 votos a favor y 97 en contra, en una sesión que se extendió hasta la madrugada.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "diputados",
+        "blanqueo",
+        "capitales",
+        "sesión",
+        "media sanción"
+      ],
+      "author": "Carolina López",
+      "published_at": "2026-04-08T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/diputados-aprobo-en-general-el-proyecto-de-blanqueo-de-capitales"
+    },
+    {
+      "title": "La Casa Rosada confirmó que Milei viajará a Estados Unidos para reunirse con Trump",
+      "slug": "la-casa-rosada-confirmo-que-milei-viajara-a-estados-unidos-para-reunirse-con-trump-509fa829",
+      "excerpt": "El presidente argentino tiene previsto un encuentro bilateral en la Casa Blanca para avanzar en acuerdos comerciales y reforzar la alineación estratégica.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1551009175-15bdf9dcb580?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "milei",
+        "trump",
+        "eeuu",
+        "política exterior",
+        "relaciones internacionales"
+      ],
+      "author": "Martín Rodríguez",
+      "published_at": "2026-04-07T23:36:51.185Z",
+      "source_url": "https://politicaargentina.com/politica/la-casa-rosada-confirmo-que-milei-viajara-a-estados-unidos-para-reunirse-con-trump"
+    },
+    {
+      "title": "El Senado debate la reforma del sistema de salud: puntos clave del proyecto",
+      "slug": "el-senado-debate-la-reforma-del-sistema-de-salud-puntos-clave-del-proyecto-7d10ba9e",
+      "excerpt": "El proyecto impulsado por el Ejecutivo propone modificar el sistema de obras sociales e integrar al sector privado en la gestión de la cobertura médica.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "salud",
+        "senado",
+        "reforma",
+        "obras sociales",
+        "privatización"
+      ],
+      "author": "Sebastián Castro",
+      "published_at": "2026-04-07T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/politica/el-senado-debate-la-reforma-del-sistema-de-salud-puntos-clave-del-proyecto"
+    },
+    {
+      "title": "Massa anticipó que el peronismo irá unido a las elecciones de octubre",
+      "slug": "massa-anticipo-que-el-peronismo-ira-unido-a-las-elecciones-de-octubre-e73eb003",
+      "excerpt": "El expresidente del bloque Unión por la Patria en la Cámara de Diputados convocó a la unidad y descartó la posibilidad de listas internas en el PJ.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "massa",
+        "peronismo",
+        "pj",
+        "elecciones",
+        "unión por la patria"
+      ],
+      "author": "Ana Morales",
+      "published_at": "2026-04-06T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/politica/massa-anticipo-que-el-peronismo-ira-unido-a-las-elecciones-de-octubre"
+    },
+    {
+      "title": "El gobierno nacional intervino YPF por irregularidades en contratos de exploración",
+      "slug": "el-gobierno-nacional-intervino-ypf-por-irregularidades-en-contratos-de-exploracion-66bb58c9",
+      "excerpt": "La Secretaría de Energía dispuso una auditoría de emergencia en YPF tras detectar sobreprecios en los contratos firmados durante la gestión anterior.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "ypf",
+        "energía",
+        "intervención",
+        "contratos",
+        "auditoría"
+      ],
+      "author": "Diego Gutiérrez",
+      "published_at": "2026-04-06T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/politica/el-gobierno-nacional-intervino-ypf-por-irregularidades-en-contratos-de-exploracion"
+    },
+    {
+      "title": "El Congreso inició el debate por la Ley de Bases 2.0: nuevas reformas estructurales en agenda",
+      "slug": "el-congreso-inicio-el-debate-por-la-ley-de-bases-20-nuevas-reformas-estructurales-en-agenda-c49d1186",
+      "excerpt": "Tras el primer paquete de medidas, el Ejecutivo envió un nuevo proyecto con reformas al sistema educativo, laboral y previsional.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+      "category": "politica",
+      "tags": [
+        "ley de bases",
+        "congreso",
+        "reformas",
+        "milei",
+        "libertad avanza"
+      ],
+      "author": "Lucía Fernández",
+      "published_at": "2026-04-05T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/politica/el-congreso-inicio-el-debate-por-la-ley-de-bases-20-nuevas-reformas-estructurales-en-agenda"
+    },
+    {
+      "title": "Dólar blue alcanzó los $1.445: el mercado cambiario mantiene estabilidad tras las medidas del BCRA",
+      "slug": "dolar-blue-alcanzo-los-1445-el-mercado-cambiario-mantiene-estabilidad-tras-las-medidas-del-bcra-535a414e",
+      "excerpt": "La divisa paralela cerró en alza marginal mientras el Banco Central acumuló reservas por tercera semana consecutiva gracias a las liquidaciones del agro.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "dólar blue",
+        "tipo de cambio",
+        "bcra",
+        "reservas",
+        "mercado cambiario"
+      ],
+      "author": "Federico Navarro",
+      "published_at": "2026-04-12T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/dolar-blue-alcanzo-los-1445-el-mercado-cambiario-mantiene-estabilidad-tras-las-medidas-del-bcra"
+    },
+    {
+      "title": "El Banco Central modificó los encajes bancarios para aumentar el crédito a pymes",
+      "slug": "el-banco-central-modifico-los-encajes-bancarios-para-aumentar-el-credito-a-pymes-0c10f766",
+      "excerpt": "La nueva regulación reduce los requisitos de encaje para préstamos destinados a pequeñas y medianas empresas, con el objetivo de dinamizar el crédito productivo.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "banco central",
+        "encajes",
+        "pymes",
+        "crédito",
+        "regulación"
+      ],
+      "author": "Carolina López",
+      "published_at": "2026-04-12T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-banco-central-modifico-los-encajes-bancarios-para-aumentar-el-credito-a-pymes"
+    },
+    {
+      "title": "La inflación de octubre fue del 8,3%: acumula 107% en los últimos doce meses",
+      "slug": "la-inflacion-de-octubre-fue-del-83-acumula-107-en-los-ultimos-doce-meses-91b50915",
+      "excerpt": "El INDEC publicó el índice de precios al consumidor correspondiente a octubre, con alimentos y servicios públicos como los rubros de mayor impacto.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "inflación",
+        "indec",
+        "precios",
+        "ipc",
+        "alimentos"
+      ],
+      "author": "Martín Rodríguez",
+      "published_at": "2026-04-11T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/la-inflacion-de-octubre-fue-del-83-acumula-107-en-los-ultimos-doce-meses"
+    },
+    {
+      "title": "El gobierno aumentó las tarifas de gas natural un 7,2% para el sector residencial",
+      "slug": "el-gobierno-aumento-las-tarifas-de-gas-natural-un-72-para-el-sector-residencial-e5916261",
+      "excerpt": "La Secretaría de Energía dispuso un nuevo ajuste tarifario en el marco del plan de normalización del sector, que prevé actualizaciones trimestrales.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "tarifas",
+        "gas",
+        "energía",
+        "subsidios",
+        "ajuste"
+      ],
+      "author": "Sebastián Castro",
+      "published_at": "2026-04-11T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-gobierno-aumento-las-tarifas-de-gas-natural-un-72-para-el-sector-residencial"
+    },
+    {
+      "title": "Las exportaciones agroindustriales superaron los U$S 4.000 millones en septiembre",
+      "slug": "las-exportaciones-agroindustriales-superaron-los-us-4000-millones-en-septiembre-592e5c4b",
+      "excerpt": "El complejo sojero y el sector cerealero lideraron las ventas al exterior, impulsadas por el tipo de cambio competitivo y la fuerte demanda asiática.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "exportaciones",
+        "agro",
+        "soja",
+        "cereales",
+        "comercio exterior"
+      ],
+      "author": "Ana Morales",
+      "published_at": "2026-04-10T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/las-exportaciones-agroindustriales-superaron-los-us-4000-millones-en-septiembre"
+    },
+    {
+      "title": "El FMI aprobó un nuevo desembolso de U$S 800 millones para la Argentina",
+      "slug": "el-fmi-aprobo-un-nuevo-desembolso-de-us-800-millones-para-la-argentina-a9103635",
+      "excerpt": "El directorio del organismo internacional dio luz verde a la quinta revisión del acuerdo de facilidades extendidas y liberó fondos para reforzar las reservas.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "fmi",
+        "desembolso",
+        "reservas",
+        "acuerdo",
+        "deuda"
+      ],
+      "author": "Diego Gutiérrez",
+      "published_at": "2026-04-10T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-fmi-aprobo-un-nuevo-desembolso-de-us-800-millones-para-la-argentina"
+    },
+    {
+      "title": "El índice de desempleo bajó al 6,4% en el tercer trimestre: el más bajo en cinco años",
+      "slug": "el-indice-de-desempleo-bajo-al-64-en-el-tercer-trimestre-el-mas-bajo-en-cinco-anos-55084831",
+      "excerpt": "El INDEC informó una recuperación del mercado laboral impulsada por la construcción y los servicios, aunque la informalidad sigue por encima del 40%.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "desempleo",
+        "empleo",
+        "mercado laboral",
+        "indec",
+        "informalidad"
+      ],
+      "author": "Lucía Fernández",
+      "published_at": "2026-04-09T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-indice-de-desempleo-bajo-al-64-en-el-tercer-trimestre-el-mas-bajo-en-cinco-anos"
+    },
+    {
+      "title": "El Merval cerró en máximo histórico: las acciones bancarias lideran el rally",
+      "slug": "el-merval-cerro-en-maximo-historico-las-acciones-bancarias-lideran-el-rally-0bae979c",
+      "excerpt": "El índice bursátil porteño trepó un 4,8% en la jornada y alcanzó un nuevo récord en moneda extranjera, impulsado por la expectativa de levantamiento del cepo.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "merval",
+        "bolsa",
+        "acciones",
+        "bancos",
+        "cepo cambiario"
+      ],
+      "author": "Federico Navarro",
+      "published_at": "2026-04-09T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-merval-cerro-en-maximo-historico-las-acciones-bancarias-lideran-el-rally"
+    },
+    {
+      "title": "El gobierno lanzó un plan de incentivos fiscales para inversiones en Vaca Muerta",
+      "slug": "el-gobierno-lanzo-un-plan-de-incentivos-fiscales-para-inversiones-en-vaca-muerta-b1c12db9",
+      "excerpt": "El paquete de medidas incluye exenciones impositivas, garantías de repatriación de divisas y un régimen simplificado para proyectos de más de U$S 100 millones.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "vaca muerta",
+        "petróleo",
+        "inversión",
+        "incentivos fiscales",
+        "neuquén"
+      ],
+      "author": "Carolina López",
+      "published_at": "2026-04-08T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-gobierno-lanzo-un-plan-de-incentivos-fiscales-para-inversiones-en-vaca-muerta"
+    },
+    {
+      "title": "La construcción creció un 12% interanual: recuperación sostenida en obra pública y privada",
+      "slug": "la-construccion-crecio-un-12-interanual-recuperacion-sostenida-en-obra-publica-y-privada-dc2e0ef1",
+      "excerpt": "El INDEC informó el indicador sintético de la actividad de la construcción correspondiente a septiembre, con el sector liderando la recuperación económica.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "construcción",
+        "obra pública",
+        "actividad económica",
+        "indec",
+        "recuperación"
+      ],
+      "author": "Martín Rodríguez",
+      "published_at": "2026-04-08T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/la-construccion-crecio-un-12-interanual-recuperacion-sostenida-en-obra-publica-y-privada"
+    },
+    {
+      "title": "Las reservas brutas del BCRA superaron los U$S 30.000 millones por primera vez en dos años",
+      "slug": "las-reservas-brutas-del-bcra-superaron-los-us-30000-millones-por-primera-vez-en-dos-anos-e58f4f8e",
+      "excerpt": "El stock de reservas del Banco Central trepó gracias a las liquidaciones del agro, los desembolsos del FMI y las operaciones de repo con bancos internacionales.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "reservas",
+        "bcra",
+        "banco central",
+        "divisas",
+        "fmi"
+      ],
+      "author": "Sebastián Castro",
+      "published_at": "2026-04-07T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/las-reservas-brutas-del-bcra-superaron-los-us-30000-millones-por-primera-vez-en-dos-anos"
+    },
+    {
+      "title": "El gobierno suspendió las retenciones a las exportaciones de economías regionales",
+      "slug": "el-gobierno-suspendio-las-retenciones-a-las-exportaciones-de-economias-regionales-b25124ed",
+      "excerpt": "La medida beneficia a los productores de frutas, vinos, aceitunas y miel, y busca incentivar la producción y el ingreso de divisas por exportaciones no tradicionales.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "retenciones",
+        "exportaciones",
+        "economías regionales",
+        "agro",
+        "divisas"
+      ],
+      "author": "Ana Morales",
+      "published_at": "2026-04-07T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-gobierno-suspendio-las-retenciones-a-las-exportaciones-de-economias-regionales"
+    },
+    {
+      "title": "El riesgo país cayó por debajo de los 700 puntos: señal de recuperación de confianza",
+      "slug": "el-riesgo-pais-cayo-por-debajo-de-los-700-puntos-senal-de-recuperacion-de-confianza-8756ee22",
+      "excerpt": "El indicador elaborado por JP Morgan descendió a su nivel más bajo desde 2018, reflejando la mejora en la percepción internacional sobre la economía argentina.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "riesgo país",
+        "bonos",
+        "deuda",
+        "confianza",
+        "mercados"
+      ],
+      "author": "Diego Gutiérrez",
+      "published_at": "2026-04-06T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-riesgo-pais-cayo-por-debajo-de-los-700-puntos-senal-de-recuperacion-de-confianza"
+    },
+    {
+      "title": "El consumo en supermercados cayó un 3,2% en términos reales durante septiembre",
+      "slug": "el-consumo-en-supermercados-cayo-un-32-en-terminos-reales-durante-septiembre-c31790f2",
+      "excerpt": "Pese a la desaceleración inflacionaria, el poder adquisitivo todavía no se recupera y el consumo masivo acumula seis meses consecutivos de caída interanual.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1580913428735-bd3c269d6a82?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "consumo",
+        "supermercados",
+        "poder adquisitivo",
+        "ventas minoristas",
+        "inflación"
+      ],
+      "author": "Lucía Fernández",
+      "published_at": "2026-04-06T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-consumo-en-supermercados-cayo-un-32-en-terminos-reales-durante-septiembre"
+    },
+    {
+      "title": "El sector tecnológico exportó U$S 2.100 millones en software y servicios informáticos",
+      "slug": "el-sector-tecnologico-exporto-us-2100-millones-en-software-y-servicios-informaticos-5cd65415",
+      "excerpt": "La industria del conocimiento se consolida como el tercer complejo exportador argentino, con un crecimiento del 18% interanual impulsado por startups y empresas de IT.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+      "category": "economia",
+      "tags": [
+        "tecnología",
+        "exportaciones",
+        "software",
+        "startups",
+        "industria del conocimiento"
+      ],
+      "author": "Federico Navarro",
+      "published_at": "2026-04-05T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/economia/el-sector-tecnologico-exporto-us-2100-millones-en-software-y-servicios-informaticos"
+    },
+    {
+      "title": "La Corte Suprema revocó el fallo que absolvía a exfuncionarios en la causa de los cuadernos",
+      "slug": "la-corte-suprema-revoco-el-fallo-que-absolvia-a-exfuncionarios-en-la-causa-de-los-cuadernos-e91ffbf3",
+      "excerpt": "El máximo tribunal ordenó que el caso sea reenviado a la Cámara de Casación para un nuevo juicio oral, en una decisión que reactiva el expediente más importante de corrupción.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+      "category": "judicial",
+      "tags": [
+        "corte suprema",
+        "cuadernos",
+        "corrupción",
+        "casación",
+        "exfuncionarios"
+      ],
+      "author": "Sebastián Castro",
+      "published_at": "2026-04-12T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/judicial/la-corte-suprema-revoco-el-fallo-que-absolvia-a-exfuncionarios-en-la-causa-de-los-cuadernos"
+    },
+    {
+      "title": "El juez Ercolini citó a indagatoria a tres exsecretarios de Obra Pública",
+      "slug": "el-juez-ercolini-cito-a-indagatoria-a-tres-exsecretarios-de-obra-publica-e10e6fd0",
+      "excerpt": "El magistrado federal convocó a declarar a los exfuncionarios en el marco de la causa por sobreprecios en contratos de infraestructura vial durante el kirchnerismo.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+      "category": "judicial",
+      "tags": [
+        "ercolini",
+        "obra pública",
+        "indagatoria",
+        "corrupción",
+        "kirchnerismo"
+      ],
+      "author": "Carolina López",
+      "published_at": "2026-04-11T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/judicial/el-juez-ercolini-cito-a-indagatoria-a-tres-exsecretarios-de-obra-publica"
+    },
+    {
+      "title": "La defensa de CFK solicitó la nulidad de todas las actuaciones en la causa Vialidad",
+      "slug": "la-defensa-de-cfk-solicito-la-nulidad-de-todas-las-actuaciones-en-la-causa-vialidad-84c762d6",
+      "excerpt": "Los abogados de la expresidenta presentaron un recurso ante la Cámara de Casación argumentando irregularidades en la conformación del tribunal de juicio.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+      "category": "judicial",
+      "tags": [
+        "cristina kirchner",
+        "vialidad",
+        "casación",
+        "nulidad",
+        "defensa"
+      ],
+      "author": "Martín Rodríguez",
+      "published_at": "2026-04-10T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/judicial/la-defensa-de-cfk-solicito-la-nulidad-de-todas-las-actuaciones-en-la-causa-vialidad"
+    },
+    {
+      "title": "El Gobierno envió al Congreso el pliego de tres candidatos para integrar la Corte Suprema",
+      "slug": "el-gobierno-envio-al-congreso-el-pliego-de-tres-candidatos-para-integrar-la-corte-suprema-fec36738",
+      "excerpt": "El Poder Ejecutivo oficializó la propuesta de tres juristas para cubrir las vacantes en el máximo tribunal, abriendo el período de impugnaciones ciudadanas.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+      "category": "judicial",
+      "tags": [
+        "corte suprema",
+        "pliego",
+        "magistrados",
+        "gobierno",
+        "congreso"
+      ],
+      "author": "Ana Morales",
+      "published_at": "2026-04-09T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/judicial/el-gobierno-envio-al-congreso-el-pliego-de-tres-candidatos-para-integrar-la-corte-suprema"
+    },
+    {
+      "title": "La Fiscalía apeló la excarcelación del empresario imputado en el caso de lavado offshore",
+      "slug": "la-fiscalia-apelo-la-excarcelacion-del-empresario-imputado-en-el-caso-de-lavado-offshore-ba3a89db",
+      "excerpt": "El Ministerio Público Fiscal solicitó la revocación de la libertad del acusado de transferir fondos no declarados a cuentas en Islas Caimán y Suiza.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+      "category": "judicial",
+      "tags": [
+        "lavado",
+        "offshore",
+        "fiscal",
+        "excarcelación",
+        "cuentas en el exterior"
+      ],
+      "author": "Diego Gutiérrez",
+      "published_at": "2026-04-08T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/judicial/la-fiscalia-apelo-la-excarcelacion-del-empresario-imputado-en-el-caso-de-lavado-offshore"
+    },
+    {
+      "title": "El Consejo de la Magistratura inició el proceso de selección de 40 nuevos magistrados",
+      "slug": "el-consejo-de-la-magistratura-inicio-el-proceso-de-seleccion-de-40-nuevos-magistrados-654f476a",
+      "excerpt": "El órgano constitucional abrió las inscripciones para cubrir vacantes en juzgados federales de todo el país, en un concurso que se extenderá por seis meses.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+      "category": "judicial",
+      "tags": [
+        "magistratura",
+        "magistrados",
+        "concurso",
+        "juzgados federales",
+        "poder judicial"
+      ],
+      "author": "Lucía Fernández",
+      "published_at": "2026-04-07T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/judicial/el-consejo-de-la-magistratura-inicio-el-proceso-de-seleccion-de-40-nuevos-magistrados"
+    },
+    {
+      "title": "La Cámara Electoral ratificó el cronograma para las primarias del próximo año",
+      "slug": "la-camara-electoral-ratifico-el-cronograma-para-las-primarias-del-proximo-ano-b9545153",
+      "excerpt": "El tribunal electoral confirmó que las PASO se realizarán en junio y las elecciones generales en octubre, estableciendo las fechas límite para la presentación de alianzas.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=800&q=80",
+      "category": "judicial",
+      "tags": [
+        "electoral",
+        "paso",
+        "elecciones",
+        "cronograma",
+        "cámara electoral"
+      ],
+      "author": "Federico Navarro",
+      "published_at": "2026-04-06T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/judicial/la-camara-electoral-ratifico-el-cronograma-para-las-primarias-del-proximo-ano"
+    },
+    {
+      "title": "Tribunal condenó a diez años de prisión al ex jefe policial por encubrimiento y extorsión",
+      "slug": "tribunal-condeno-a-diez-anos-de-prision-al-ex-jefe-policial-por-encubrimiento-y-extorsion-fc2ab5e9",
+      "excerpt": "El fallo de la Cámara Federal acreditó que el excomisario encubrió delitos de tráfico de drogas y cobró coimas a organizaciones criminales durante doce años.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+      "category": "judicial",
+      "tags": [
+        "policía",
+        "condena",
+        "corrupción",
+        "extorsión",
+        "encubrimiento"
+      ],
+      "author": "Carolina López",
+      "published_at": "2026-04-05T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/judicial/tribunal-condeno-a-diez-anos-de-prision-al-ex-jefe-policial-por-encubrimiento-y-extorsion"
+    },
+    {
+      "title": "Brasil y Argentina firmaron un acuerdo de libre comercio en el marco del Mercosur",
+      "slug": "brasil-y-argentina-firmaron-un-acuerdo-de-libre-comercio-en-el-marco-del-mercosur-008ae15d",
+      "excerpt": "Los presidentes de ambos países refrendaron en Brasilia un tratado bilateral para facilitar el intercambio comercial y eliminar aranceles en sectores estratégicos.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&q=80",
+      "category": "internacional",
+      "tags": [
+        "brasil",
+        "mercosur",
+        "libre comercio",
+        "acuerdo bilateral",
+        "lula"
+      ],
+      "author": "Martín Rodríguez",
+      "published_at": "2026-04-11T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/internacional/brasil-y-argentina-firmaron-un-acuerdo-de-libre-comercio-en-el-marco-del-mercosur"
+    },
+    {
+      "title": "La ONU cuestionó las políticas de ajuste argentino por su impacto en derechos sociales",
+      "slug": "la-onu-cuestiono-las-politicas-de-ajuste-argentino-por-su-impacto-en-derechos-sociales-6a38949d",
+      "excerpt": "Un informe del relator especial de Naciones Unidas advirtió sobre el deterioro de indicadores de pobreza y acceso a la salud en el contexto del programa económico.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+      "category": "internacional",
+      "tags": [
+        "onu",
+        "derechos humanos",
+        "ajuste",
+        "pobreza",
+        "relator especial"
+      ],
+      "author": "Sebastián Castro",
+      "published_at": "2026-04-10T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/internacional/la-onu-cuestiono-las-politicas-de-ajuste-argentino-por-su-impacto-en-derechos-sociales"
+    },
+    {
+      "title": "China anunció una inversión de U$S 5.000 millones en infraestructura ferroviaria argentina",
+      "slug": "china-anuncio-una-inversion-de-us-5000-millones-en-infraestructura-ferroviaria-argentina-afe68282",
+      "excerpt": "El gobierno chino confirmó el financiamiento para la renovación de la red ferroviaria nacional en el marco de la iniciativa Belt and Road, con plazo de ejecución a diez años.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=800&q=80",
+      "category": "internacional",
+      "tags": [
+        "china",
+        "inversión",
+        "ferroviario",
+        "belt and road",
+        "infraestructura"
+      ],
+      "author": "Ana Morales",
+      "published_at": "2026-04-09T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/internacional/china-anuncio-una-inversion-de-us-5000-millones-en-infraestructura-ferroviaria-argentina"
+    },
+    {
+      "title": "El G20 sesionó en Sudáfrica con la deuda de los países emergentes como eje central",
+      "slug": "el-g20-sesiono-en-sudafrica-con-la-deuda-de-los-paises-emergentes-como-eje-central-13d4f3e4",
+      "excerpt": "Los ministros de Economía del grupo de las veinte economías más grandes debatieron mecanismos de reestructuración y alivio de deuda para naciones de bajos ingresos.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&q=80",
+      "category": "internacional",
+      "tags": [
+        "g20",
+        "deuda",
+        "economías emergentes",
+        "sudáfrica",
+        "finanzas internacionales"
+      ],
+      "author": "Diego Gutiérrez",
+      "published_at": "2026-04-08T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/internacional/el-g20-sesiono-en-sudafrica-con-la-deuda-de-los-paises-emergentes-como-eje-central"
+    },
+    {
+      "title": "Venezuela expulsó al embajador argentino en respuesta a las críticas de Milei",
+      "slug": "venezuela-expulso-al-embajador-argentino-en-respuesta-a-las-criticas-de-milei-5c9f01bb",
+      "excerpt": "El gobierno de Maduro declaró persona non grata al representante diplomático argentino tras las declaraciones del presidente sobre la situación democrática venezolana.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+      "category": "internacional",
+      "tags": [
+        "venezuela",
+        "maduro",
+        "milei",
+        "diplomacia",
+        "relaciones exteriores"
+      ],
+      "author": "Lucía Fernández",
+      "published_at": "2026-04-07T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/internacional/venezuela-expulso-al-embajador-argentino-en-respuesta-a-las-criticas-de-milei"
+    },
+    {
+      "title": "Argentina presidirá el Comité Antártico Internacional durante el próximo bienio",
+      "slug": "argentina-presidira-el-comite-antartico-internacional-durante-el-proximo-bienio-30305b18",
+      "excerpt": "La Cancillería informó que el país asumirá la presidencia rotativa del organismo multilateral, reforzando su posición geopolítica en la región austral.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&q=80",
+      "category": "internacional",
+      "tags": [
+        "antártida",
+        "cancillería",
+        "geopolítica",
+        "multilateral",
+        "soberanía"
+      ],
+      "author": "Federico Navarro",
+      "published_at": "2026-04-06T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/internacional/argentina-presidira-el-comite-antartico-internacional-durante-el-proximo-bienio"
+    },
+    {
+      "title": "La OTAN evaluó ampliar su presencia en América Latina ante la influencia rusa y china",
+      "slug": "la-otan-evaluo-ampliar-su-presencia-en-america-latina-ante-la-influencia-rusa-y-china-ae80796a",
+      "excerpt": "Un informe del Consejo del Atlántico Norte analizó la creciente presencia de Rusia y China en la región y la posibilidad de acuerdos de seguridad con países afines.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1551009175-15bdf9dcb580?w=800&q=80",
+      "category": "internacional",
+      "tags": [
+        "otan",
+        "rusia",
+        "china",
+        "geopolítica",
+        "seguridad"
+      ],
+      "author": "Carolina López",
+      "published_at": "2026-04-05T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/internacional/la-otan-evaluo-ampliar-su-presencia-en-america-latina-ante-la-influencia-rusa-y-china"
+    },
+    {
+      "title": "La matrícula universitaria cayó un 9% en 2025: el ajuste presupuestario y el costo de vida, principales causas",
+      "slug": "la-matricula-universitaria-cayo-un-9-en-2025-el-ajuste-presupuestario-y-el-costo-de-vida-principales-f1669d88",
+      "excerpt": "Un relevamiento nacional de la Secretaría de Políticas Universitarias reveló que más de 80.000 estudiantes abandonaron o postergaron sus estudios superiores.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+      "category": "sociedad",
+      "tags": [
+        "universidad",
+        "educación",
+        "matrícula",
+        "ajuste",
+        "costo de vida"
+      ],
+      "author": "Martín Rodríguez",
+      "published_at": "2026-04-11T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/sociedad/la-matricula-universitaria-cayo-un-9-en-2025-el-ajuste-presupuestario-y-el-costo-de-vida-principales"
+    },
+    {
+      "title": "Aumentó un 32% la demanda de comedores comunitarios en el conurbano bonaerense",
+      "slug": "aumento-un-32-la-demanda-de-comedores-comunitarios-en-el-conurbano-bonaerense-03426951",
+      "excerpt": "Organizaciones sociales advierten sobre el incremento de personas en situación de inseguridad alimentaria y reclaman al Estado mayor asistencia para los comedores.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80",
+      "category": "sociedad",
+      "tags": [
+        "comedores",
+        "pobreza",
+        "alimentación",
+        "conurbano",
+        "organizaciones sociales"
+      ],
+      "author": "Ana Morales",
+      "published_at": "2026-04-10T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/sociedad/aumento-un-32-la-demanda-de-comedores-comunitarios-en-el-conurbano-bonaerense"
+    },
+    {
+      "title": "El gobierno presentó un plan de viviendas sociales con financiamiento del BID",
+      "slug": "el-gobierno-presento-un-plan-de-viviendas-sociales-con-financiamiento-del-bid-b409973d",
+      "excerpt": "El programa prevé la construcción de 15.000 viviendas en todo el país, con foco en los municipios del conurbano bonaerense y las grandes ciudades del interior.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "category": "sociedad",
+      "tags": [
+        "vivienda",
+        "bid",
+        "financiamiento",
+        "plan habitacional",
+        "conurbano"
+      ],
+      "author": "Sebastián Castro",
+      "published_at": "2026-04-09T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/sociedad/el-gobierno-presento-un-plan-de-viviendas-sociales-con-financiamiento-del-bid"
+    },
+    {
+      "title": "Un estudio revela que Argentina tiene la mayor tasa de terapia psicológica per cápita del mundo",
+      "slug": "un-estudio-revela-que-argentina-tiene-la-mayor-tasa-de-terapia-psicologica-per-capita-del-mundo-b6ba795c",
+      "excerpt": "La investigación de la USAL actualiza el dato histórico y confirma que Buenos Aires sigue siendo la ciudad con más psicólogos y pacientes en relación a su población.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+      "category": "sociedad",
+      "tags": [
+        "salud mental",
+        "psicología",
+        "terapia",
+        "usal",
+        "buenos aires"
+      ],
+      "author": "Diego Gutiérrez",
+      "published_at": "2026-04-07T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/sociedad/un-estudio-revela-que-argentina-tiene-la-mayor-tasa-de-terapia-psicologica-per-capita-del-mundo"
+    },
+    {
+      "title": "Las migraciones internas se aceleraron: tucumanos y cordobeses encabezan la llegada a Patagonia",
+      "slug": "las-migraciones-internas-se-aceleraron-tucumanos-y-cordobeses-encabezan-la-llegada-a-patagonia-944bbd52",
+      "excerpt": "Un informe del CONICET documenta el éxodo hacia las provincias patagónicas en busca de empleo en los sectores petrolero, gasífero y de servicios.",
+      "content": null,
+      "image_url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80",
+      "category": "sociedad",
+      "tags": [
+        "migración",
+        "patagonia",
+        "empleo",
+        "conicet",
+        "demografía"
+      ],
+      "author": "Lucía Fernández",
+      "published_at": "2026-04-06T23:36:51.186Z",
+      "source_url": "https://politicaargentina.com/sociedad/las-migraciones-internas-se-aceleraron-tucumanos-y-cordobeses-encabezan-la-llegada-a-patagonia"
+    }
+  ]
+}
