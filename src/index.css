@@ -1,111 +1,194 @@
+/* ============================================================
+   GLOBAL STYLESHEET — polArg / Política Argentina
+   File: src/index.css
+   All styles from App.css were consolidated here.
+   ============================================================ */
+
+/* ── FONT IMPORT ────────────────────────────────────────────
+   Loads Work Sans as a variable font (weights 100–900, normal
+   and italic). This is the ONLY typeface used across the entire
+   brand. "display=swap" shows fallback text while the font
+   loads, preventing invisible text (FOIT).
+   ---------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ── UNIVERSAL BOX MODEL ────────────────────────────────────
+   Forces every element (including pseudo-elements ::before /
+   ::after) to use border-box sizing, so padding and borders
+   are included in declared widths — not added on top.
+   Zeroing margin + padding removes browser UA stylesheet
+   defaults (e.g., paragraph margins, list indents) so we start
+   from a clean baseline.
+   ---------------------------------------------------------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── DESIGN TOKENS (CSS custom properties) ──────────────────
+   Defined on :root so they cascade everywhere.
+
+   Brand palette (from Manual de Marca, Oct 2024):
+     --color-negro    → primary background + text (dark surfaces)
+     --color-amarillo → primary accent / energy / Argentine sun ref
+     --color-celeste  → secondary accent / Argentine flag reference
+     --color-blanco   → primary background (light mode) + dark text
+     --color-gris     → secondary backgrounds, card surfaces
+
+   --font   → variable font stack; system-ui is the fallback.
+   --frame  → the ~5px inset around the article reader viewport
+              (article card expands to near-fullscreen but leaves
+              this gap on each side for the underlying grid to peek).
+
+   font-size: 16px sets the rem base for the whole app.
+   -webkit-font-smoothing / -moz-osx-font-smoothing → sub-pixel
+   anti-aliasing for crisper Work Sans rendering on Mac/iOS.
+   text-rendering: optimizeLegibility → enables kerning pairs and
+   ligatures for editorial-quality type.
+
+   Default color scheme is LIGHT (white paper, black ink —
+   matches the print-editorial design concept).
+   ---------------------------------------------------------- */
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --color-negro:    #151515;
+  --color-amarillo: #FED900;
+  --color-celeste:  #A0C6FF;
+  --color-blanco:   #FFFFFF;
+  --color-gris:     #D6D6D6;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --font: 'Work Sans', system-ui, sans-serif;
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  /* ~5px frame around the article reader */
+  --frame: 5px;
+
+  font-family: var(--font);
+  font-size: 16px;
+
+  /* Light is default — print editorial: white paper, black ink */
+  background: var(--color-blanco);
+  color: var(--color-negro);
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+  text-rendering: optimizeLegibility;
 }
 
+/* ── DARK MODE OVERRIDE ─────────────────────────────────────
+   Automatically switches to the dark-first aesthetic when the
+   OS is set to dark mode. Flips background to Negro (#151515)
+   and text to Blanco — the brand's primary visual identity.
+   No component-level changes needed; CSS custom properties
+   and color: inherit cascade from here.
+   ---------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
+    background: var(--color-negro);
+    color: var(--color-blanco);
   }
 }
 
+/* ── HTML / BODY ────────────────────────────────────────────
+   height: 100% on both ensures the body fills the full
+   viewport, which is required for full-bleed dark backgrounds
+   and for the article reader's near-fullscreen card expansion.
+   overflow-x: hidden prevents horizontal scrollbars caused by
+   Framer Motion slide transitions that momentarily exceed
+   the viewport width.
+   ---------------------------------------------------------- */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* ── #root ──────────────────────────────────────────────────
+   React mounts inside <div id="root">. min-height: 100%
+   lets short pages still fill the full viewport (avoids a
+   white/dark gap below sparse content), while allowing pages
+   taller than 100vh to grow naturally.
+   ---------------------------------------------------------- */
 #root {
-  width: 1126px;
+  min-height: 100%;
+}
+
+/* ── BUTTON RESET ───────────────────────────────────────────
+   Strips all browser-default button chrome: removes the
+   border, background, and built-in padding so every <button>
+   in the app starts unstyled. font-family/color: inherit
+   ensures button text picks up the global font and theme
+   color automatically without needing to redeclare them.
+   cursor: pointer makes every button feel interactive.
+   ---------------------------------------------------------- */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  padding: 0;
+}
+
+/* ── ANCHOR RESET ───────────────────────────────────────────
+   Removes the default blue underline from <a> tags.
+   color: inherit lets links pick up whichever text color is
+   set by their parent (negro on light, blanco on dark) without
+   needing explicit color declarations on every link component.
+   ---------------------------------------------------------- */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ── IMAGE DEFAULTS ─────────────────────────────────────────
+   display: block removes the inline gap (descender space)
+   that appears below images inside containers — critical for
+   tight editorial cards where pixel-perfect layout matters.
+   max-width: 100% prevents images from overflowing their
+   containers. height: auto preserves the aspect ratio when
+   only width is constrained.
+   ---------------------------------------------------------- */
+img {
+  display: block;
   max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+  height: auto;
 }
 
-body {
-  margin: 0;
+/* ── SCREEN READER ONLY ─────────────────────────────────────
+   Visually hides an element while keeping it in the DOM and
+   fully accessible to screen readers. Used for icon-only
+   buttons, skip links, and decorative text alternatives.
+
+   position: absolute + 1×1px + clip() + overflow: hidden →
+   the element is invisible but still announces to AT.
+   white-space: nowrap prevents the 1px box from wrapping and
+   creating a taller element that might shift layout.
+   margin: -1px collapses the element so it doesn't contribute
+   to scroll height.
+   ---------------------------------------------------------- */
+/* ── ARTICLE FIRST-LINE (allcaps lead-in) ────────────────────
+   CSS ::first-line is the only reliable way to style exactly
+   the first visual line — the browser applies it after layout,
+   accounting for the dropcap float and column width without any
+   JS measurement. text-transform, font-weight, and color are
+   all valid ::first-line properties per the CSS spec.
+   The dropcap span is float:left so it is NOT in the first line
+   box and its inline styles (900 weight, celeste) are unaffected.
+   ---------------------------------------------------------- */
+.article-first-para::first-line {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-celeste);
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
-}
-
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
-  margin: 0;
-}
-
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
-}
-
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
