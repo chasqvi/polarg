@@ -16,6 +16,15 @@ export interface ImageBlock {
   alt?: string
   caption?: string
   columnSpan?: number
+  /**
+   * Desktop (≥4 cols): 'middle' = 16:9, spans cols 1–2 (default)
+   *                    'full'   = variable height, spans cols 1–(N-1)
+   * Tablet (2 cols):   'before' = 16:9 full-width before text (default)
+   *                    'after'  = 16:9 full-width below text
+   * Mobile (1 col):    'before' | 'after' (default 'before')
+   * The paginator resolves per viewport; omit to use the viewport default.
+   */
+  placement?: 'middle' | 'full' | 'before' | 'after'
 }
 
 export interface VideoBlock {

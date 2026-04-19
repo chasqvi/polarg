@@ -4,6 +4,7 @@ import type { PreparedTextWithSegments } from '@chenglou/pretext'
 import type {
   ContentBlock,
   TextBlock,
+  ImageBlock,
   PageLayout,
   ParagraphEntry,
   PlacedBlock,
@@ -231,6 +232,93 @@ export function usePagination(
       return nearest
     }
 
+    // ── placeImage ──────────────────────────────────────────────────────────
+    // Routes image blocks to the correct placement strategy based on
+    // `block.placement` (explicit) or viewport defaults (implicit).
+    function placeImage(block: ImageBlock) {
+      const placement = block.placement ?? (columnCount >= 4 ? 'middle' : 'before')
+
+      if (columnCount >= 4 && placement === 'full') {
+        // Desktop full: cols 1–(N-1), variable height = full column height.
+        // Text in col 0 fills beside it; cols 1+ are fully reserved.
+        const colSpan = Math.min(3, columnCount - 1)
+        const colStart = 1
+        if (curColIdx > colStart) return  // already past — skip silently
+        const blockWidth = colSpan * columnWidth + (colSpan - 1) * colGap
+        curPageBlocks.push({ block, colStart, colSpan, y: 0, height: columnHeight, width: blockWidth })
+        for (let c = colStart; c < colStart + colSpan && c < columnCount; c++) {
+          reservations[c].push({ y: 0, height: columnHeight })
+          reservations[c].sort((a, b) => a.y - b.y)
+        }
+        if (curColIdx >= colStart) skipReservations(curColIdx)
+
+      } else if (columnCount >= 4 && placement === 'middle') {
+        // Desktop middle: cols 1–2, 16:9, Y=0. Text in cols 0 and 3 wraps freely.
+        const colSpan = Math.min(2, columnCount - 1)
+        const colStart = 1
+        if (curColIdx > colStart) return  // already past — skip silently
+        const blockWidth = colSpan * columnWidth + (colSpan - 1) * colGap
+        const blockHeight = computeBlockHeight(block, blockWidth)
+        curPageBlocks.push({ block, colStart, colSpan, y: 0, height: blockHeight, width: blockWidth })
+        for (let c = colStart; c < colStart + colSpan && c < columnCount; c++) {
+          reservations[c].push({ y: 0, height: blockHeight })
+          reservations[c].sort((a, b) => a.y - b.y)
+        }
+        if (curColIdx >= colStart) skipReservations(curColIdx)
+        // curColIdx intentionally NOT advanced — col 0 keeps filling
+
+      } else if (placement === 'before') {
+        // Tablet/mobile: 16:9 full-width before text.
+        // Flush to a fresh page if any content already exists.
+        if (colParas.some((p) => p.length > 0) || curPageBlocks.length > 0) {
+          flushPage()
+        }
+        const blockWidth = columnCount * columnWidth + (columnCount - 1) * colGap
+        const blockHeight = computeBlockHeight(block, blockWidth)
+        if (blockHeight > columnHeight) return  // too tall — skip
+        curPageBlocks.push({ block, colStart: 0, colSpan: columnCount, y: 0, height: blockHeight, width: blockWidth })
+        // Register in ALL columns, including col 0, then skip past it
+        for (let c = 0; c < columnCount; c++) {
+          reservations[c].push({ y: 0, height: blockHeight })
+          reservations[c].sort((a, b) => a.y - b.y)
+        }
+        skipReservations(0)  // advances colCursors[0] to blockHeight
+
+      } else {
+        // 'after' or desktop image with non-default placement: stream position, full width
+        placeGenericBlock(block)
+      }
+    }
+
+    // ── placeGenericBlock ────────────────────────────────────────────────────
+    // Stream-position block: placed at the current column cursor.
+    // Text wraps above (already placed) and below (continues after block).
+    function placeGenericBlock(block: ContentBlock) {
+      const span = resolveBlockColSpan(block, curColIdx)
+      const actualSpan = Math.min(span, columnCount - curColIdx)
+      const blockWidth = actualSpan * columnWidth + (actualSpan - 1) * colGap
+      const blockHeight = computeBlockHeight(block, blockWidth)
+
+      skipReservations(curColIdx)
+      let blockY = colCursors[curColIdx]
+
+      if (blockY + blockHeight > columnHeight) {
+        if (colParas[curColIdx].length > 0 || curColIdx > 0) {
+          advanceColumn()
+          skipReservations(curColIdx)
+          blockY = colCursors[curColIdx]
+        }
+        if (blockHeight > columnHeight) return
+      }
+
+      curPageBlocks.push({ block, colStart: curColIdx, colSpan: actualSpan, y: blockY, height: blockHeight, width: blockWidth })
+      colCursors[curColIdx] = blockY + blockHeight
+      for (let c = curColIdx + 1; c < curColIdx + actualSpan && c < columnCount; c++) {
+        reservations[c].push({ y: blockY, height: blockHeight })
+        reservations[c].sort((a, b) => a.y - b.y)
+      }
+    }
+
     const queue = [...blocks]
 
     while (queue.length > 0) {
@@ -310,42 +398,13 @@ export function usePagination(
           }
         }
       } else {
-        // Float block (image, video, highlight, ad, module)
+        // ── Float block ────────────────────────────────────────────────────
         queue.shift()
 
-        const blockColSpan = resolveBlockColSpan(item, curColIdx)
-        const actualColSpan = Math.min(blockColSpan, columnCount - curColIdx)
-        const blockWidth = actualColSpan * columnWidth + (actualColSpan - 1) * colGap
-        const blockHeight = computeBlockHeight(item, blockWidth)
-
-        skipReservations(curColIdx)
-        let blockY = colCursors[curColIdx]
-
-        // If block doesn't fit, flush to next page
-        if (blockY + blockHeight > columnHeight) {
-          if (colParas[curColIdx].length > 0 || curColIdx > 0) {
-            advanceColumn()
-            skipReservations(curColIdx)
-            blockY = colCursors[curColIdx]
-          }
-          if (blockHeight > columnHeight) continue  // block is taller than page — skip
-        }
-
-        curPageBlocks.push({
-          block: item,
-          colStart: curColIdx,
-          colSpan: actualColSpan,
-          y: blockY,
-          height: blockHeight,
-          width: blockWidth,
-        })
-
-        colCursors[curColIdx] = blockY + blockHeight
-
-        // Register reservation in all other columns this block spans
-        for (let c = curColIdx + 1; c < curColIdx + actualColSpan && c < columnCount; c++) {
-          reservations[c].push({ y: blockY, height: blockHeight })
-          reservations[c].sort((a, b) => a.y - b.y)
+        if (item.type === 'image') {
+          placeImage(item as ImageBlock)
+        } else {
+          placeGenericBlock(item)
         }
       }
     }
