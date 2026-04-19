@@ -1,4 +1,5 @@
 import type { Article } from '../types/database'
+import { addSoftHyphens } from '../lib/hyphenate'
 
 // Title convention: text wrapped in **double asterisks** renders in Black (900) weight
 export const mockArticles: Article[] = [
@@ -38,6 +39,32 @@ La pregunta que nadie en el gobierno quiere responder en voz alta: ¿cuánto de 
     published_at: '2026-04-14T09:00:00Z',
     source_url: null,
     created_at: '2026-04-14T09:00:00Z',
+    contentBlocks: [
+      { type: 'text', id: 'p1', text: addSoftHyphens('La Casa Rosada amaneció con una conferencia de prensa que nadie esperaba para un lunes. Javier Milei, flanqueado por el ministro de Economía y la vocera presidencial, anunció que el primer trimestre de 2026 arrojó un superávit primario de 1,2 puntos del PBI, un número que, según el oficialismo, no tiene precedentes en la historia económica moderna del país.') },
+      { type: 'text', id: 'p2', text: addSoftHyphens('"Esto demuestra que el ajuste fue necesario y que sus frutos están llegando", afirmó el presidente con tono triunfal, usando el pizarrón que se ha convertido en su marca registrada para las explicaciones económicas. Los mercados reaccionaron con moderada euforia: el riesgo país cedió 40 puntos básicos en la apertura y el tipo de cambio operó estable dentro de la banda de flotación.') },
+      { type: 'text', id: 'p3', text: addSoftHyphens('Sin embargo, desde la vereda opuesta el panorama luce diferente. La bancada de Unión por la Patria cuestionó la metodología de cálculo, señalando que el gobierno excluye determinadas partidas del cómputo del gasto primario. "Con la contabilidad creativa de este gobierno, cualquier número puede parecer superávit", disparó la diputada Cecilia Moreau en declaraciones a la prensa parlamentaria.') },
+      {
+        type: 'image',
+        id: 'img1',
+        url: 'https://picsum.photos/seed/superavit/800/450',
+        alt: 'Conferencia de prensa en la Casa Rosada',
+        caption: 'Milei en la conferencia de prensa del lunes — Casa Rosada',
+      },
+      { type: 'text', id: 'p4', text: addSoftHyphens('El economista del CONICET Martín Burgos aportó una lectura más técnica: "El superávit primario existe, pero hay que leer los detalles. La caída del gasto en obra pública y en prestaciones sociales explica gran parte del resultado. No es lo mismo un superávit de productividad que uno de ajuste". Sus palabras, publicadas en un hilo de casi veinte mensajes en X, se convirtieron en tendencia durante toda la mañana.') },
+      { type: 'text', id: 'p5', text: addSoftHyphens('Desde Rosario, donde se encontraba de visita oficial, el gobernador de Santa Fe se sumó a las críticas con un eje diferente: la transferencia de recursos a las provincias sigue siendo el nudo gordiano del esquema fiscal. "Nos piden que celebremos un número que se logró, en parte, a costa de los fondos que le corresponden a las provincias", señaló ante periodistas locales.') },
+      { type: 'text', id: 'p6', text: addSoftHyphens('El mercado cambiario, por su parte, mostró cierta calma durante la jornada. El tipo de cambio oficial se mantuvo estable dentro de la banda, mientras que el dólar financiero operó con leve presión alcista en los últimos tramos de la rueda. Los operadores consultados por este medio indicaron que la calma cambiaria responde más a la estacionalidad de abril que al efecto directo del anuncio presidencial.') },
+      {
+        type: 'highlight',
+        id: 'hl1',
+        text: 'El ancla fiscal es la base de todo lo demás. Si cedemos ahí, cedemos en todo.',
+      },
+      { type: 'text', id: 'p7', text: addSoftHyphens('La discusión sobre la sustentabilidad del ajuste se instaló con fuerza en los medios especializados. El interrogante central que nadie puede responder con certeza: ¿puede el gobierno mantener este resultado fiscal en un contexto de actividad económica que aún no termina de recuperarse y con elecciones de medio término en el horizonte?') },
+      { type: 'text', id: 'p8', text: addSoftHyphens('El ministro de Economía insistió en la tarde del lunes en que el camino está trazado y no hay marcha atrás. "El ancla fiscal es la base de todo lo demás. Si cedemos ahí, cedemos en todo", afirmó en declaraciones a una radio porteña. La metáfora del ancla, repetida a lo largo de la conferencia de prensa, funcionó como señal explícita al mercado: no habrá flexibilización antes de las elecciones.') },
+      { type: 'text', id: 'p9', text: addSoftHyphens('Los sindicatos, ausentes en el debate de los últimos días, volvieron a alzar la voz. La CGT emitió un comunicado recordando que el salario real acumuló una caída del 18% en los últimos dieciocho meses, y que hablar de superávit fiscal mientras los trabajadores pierden poder adquisitivo es una "provocación inaceptable". El comunicado fue firmado por los cuatro secretariats generales de la central obrera, lo que subraya el grado de unidad interna.') },
+      { type: 'text', id: 'p10', text: addSoftHyphens('La respuesta del oficialismo fue previsible: el presidente publicó un gráfico comparando la situación actual con la "herencia recibida" en diciembre de 2023. El gráfico, diseñado con colores amarillos y fuentes de gran tamaño, circuló ampliamente en las redes sociales y fue el contenido más compartido del día según las métricas de las principales plataformas.') },
+      { type: 'text', id: 'p11', text: addSoftHyphens('Los analistas internacionales observan el proceso argentino con interés creciente. El Fondo Monetario Internacional, cuyo staff estará en Buenos Aires a fin de mes para la revisión del programa, anticipó que los resultados preliminares son "consistentes con los objetivos del acuerdo". La frase, cuidadosamente redactada para evitar elogios que puedan ser malinterpretados en año electoral, fue leída sin embargo como un respaldo implícito por los funcionarios del Ejecutivo.') },
+      { type: 'text', id: 'p12', text: addSoftHyphens('La pregunta que nadie en el gobierno quiere responder en voz alta: ¿cuánto de este resultado es estructural y cuánto es consecuencia del brutal recorte del gasto real que ha golpeado a jubilados, empleados públicos y receptores de planes sociales? La respuesta, por ahora, la tiene solo el tiempo.') },
+    ],
   },
   {
     id: '2',

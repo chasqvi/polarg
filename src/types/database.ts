@@ -51,5 +51,12 @@ export interface Database {
   }
 }
 
-export type Article = Database['public']['Tables']['articles']['Row']
+import type { ContentBlock } from './content'
+
+// contentBlocks is a frontend-only field — not in the DB schema.
+// When present on an article object, the reader uses it instead of
+// splitting article.content by double newlines.
+export type Article = Database['public']['Tables']['articles']['Row'] & {
+  contentBlocks?: ContentBlock[]
+}
 export type Category = Database['public']['Tables']['categories']['Row']
